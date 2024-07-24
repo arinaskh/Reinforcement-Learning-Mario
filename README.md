@@ -44,6 +44,9 @@ Define Q-value estimators backed by a convolution neural network.
 **Mario_metrics.py**
 Define a `MetricLogger` that helps track training/evaluation performance.
 
+**Mario_replay.py**
+To evaluate a trained Mario we use this file.
+
 ## Key Metrics
 
 - Episode: current episode
