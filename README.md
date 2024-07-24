@@ -1,4 +1,5 @@
 ## Set Up
+
 1. Install [conda](https://www.anaconda.com/products/individual)
 2. Install dependencies with `environment.yml`
     ```
@@ -28,19 +29,19 @@ This visualizes Mario playing the game in a window. Performance metrics will be 
 
 
 ## Project Structure
-**main.py**
+**Mario_main.py**
 Main loop between Environment and Mario
 
-**agent.py**
+**Mario_agent.py**
 Define how the agent collects experiences, makes actions given observations and updates the action policy.
 
-**wrappers.py**
+**Mario_wrappers.py**
 Environment pre-processing logics, including observation resizing, rgb to grayscale, etc.
 
-**neural.py**
+**Mario_neural.py**
 Define Q-value estimators backed by a convolution neural network.
 
-**metrics.py**
+**Mario_metrics.py**
 Define a `MetricLogger` that helps track training/evaluation performance.
 
 ## Key Metrics
