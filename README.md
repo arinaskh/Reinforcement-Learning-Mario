@@ -1,4 +1,5 @@
-## Set Up
+## How to set up this project?
+ First we used ubunto to make a new environment(mario) for this project.In able to run this project you should:
 
 1. Install [conda](https://www.anaconda.com/products/individual)
 2. Install dependencies with `environment.yml`
