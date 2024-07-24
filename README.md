@@ -1,3 +1,11 @@
+## Project Details
+Subject:Training a Mario-playing RL Agent
+Team members:Arina Sadeghi Khiabanian,Maxence Murat
+Professor's name:Andrea Asperti
+course:Deep Learning 3-credit project course
+
+
+
 ## How to set up this project?
  First we used ubunto to make a new environment(mario) for this project.In able to run this project you should:
 
