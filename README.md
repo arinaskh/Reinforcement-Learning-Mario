@@ -1,7 +1,10 @@
 ## Project Details
 Subject:Training a Mario-playing RL Agent
+
 Team members:Arina Sadeghi Khiabanian,Maxence Murat
+
 Professor's name:Andrea Asperti
+
 course:Deep Learning 3-credit project course
 
 
