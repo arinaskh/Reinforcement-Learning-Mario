@@ -59,14 +59,5 @@ Define a `MetricLogger` that helps track training/evaluation performance.
 **Mario_replay.py**
 To evaluate a trained Mario we use this file.
 
-## Key Metrics
-
-- Episode: current episode
-- Step: total number of steps Mario played
-- Epsilon: current exploration rate
-- MeanReward: moving average of episode reward in past 100 episodes
-- MeanLength: moving average of episode length in past 100 episodes
-- MeanLoss: moving average of step loss in past 100 episodes
-- MeanQValue: moving average of step Q value (predicted) in past 100 episodes
 
 
