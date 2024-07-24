@@ -24,7 +24,7 @@ course:Deep Learning 3-credit project course
     conda activate myenv
     ```
 
-## Running
+## How each file works?
 To start the **learning** process for Mario,
 ```
 python main.py
