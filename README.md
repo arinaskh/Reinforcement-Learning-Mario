@@ -38,6 +38,8 @@ To set up this project, we utilized Ubuntu to create a new environment named *ma
     conda activate mario
     ```
 
+After creating an environment for the game,you can upload the codes and see the agent playing the game.
+
 ## File Descriptions
 ### Learning Process
 To initiate the training process for Mario, execute:
