@@ -51,6 +51,6 @@ To evaluate a trained Mario model, run:
 ```sh
 python replay.py
 ```
-This will display Mario playing the game in a window and log performance metrics to a new folder within `checkpoints`. To load a specific checkpoint, update the `load_dir` parameter in `Mario.load()` with the desired timestamp, such as `checkpoints/2020-06-06T22-00-00`.
+This will display Mario playing the game in a window and log performance metrics to a new folder within `checkpoints`. To load a specific checkpoint, update the `load_dir` parameter in `Mario.load()` with the desired timestamp, such as `checkpoints/2024-07-06T22-00-00`.
 
 
