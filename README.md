@@ -11,11 +11,12 @@
 
 ## Project Files
 - **main.py**: The main loop managing interactions between the environment and Mario.
-- **agent.py**: Defines how the agent collects experiences, selects actions based on observations, and updates its action policy.
-- **wrappers.py**: Contains logic for environment preprocessing, such as resizing observations and converting RGB to grayscale.
-- **neural.py**: Defines Q-value estimators using a convolutional neural network.
-- **metrics.py**: Includes a `MetricLogger` to track training and evaluation performance.
+- **Mariometrics.py**: Includes a `MetricLogger` to track training and evaluation performance.
 - **replay.py**: Used to evaluate a trained Mario model.
+- **Marioagent.py**: Defines how the agent collects experiences, selects actions based on observations, and updates its action policy.
+- **Mariowrappers.py**: Contains logic for environment preprocessing, such as resizing observations and converting RGB to grayscale.
+- **neural.py**: Defines Q-value estimators using a convolutional neural network.
+
 
 
 ## project overview
