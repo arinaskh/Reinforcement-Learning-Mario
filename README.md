@@ -1,5 +1,5 @@
 ## Project Overview
-### Topic: Training an Reinforcement Learning agent to Play Mario game
+### Topic: Training a Reinforcement Learning agent to Play Mario game
 
 ### Team Members:
 - Arina Sadeghi Khiabanian
