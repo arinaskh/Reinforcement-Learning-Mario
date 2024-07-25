@@ -47,3 +47,6 @@ This will display Mario playing the game in a window and log performance metrics
 - **metrics.py**: Includes a `MetricLogger` to track training and evaluation performance.
 - **replay.py**: Used to evaluate a trained Mario model.
 
+##project overview
+we uploaded two different videos of mario in our repository that see it's performance before and after training
+
