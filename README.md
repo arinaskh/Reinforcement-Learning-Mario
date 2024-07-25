@@ -9,6 +9,19 @@
 
 ### Course: Deep Learning, 3-Credit Project
 
+## Project Files
+- **main.py**: The main loop managing interactions between the environment and Mario.
+- **agent.py**: Defines how the agent collects experiences, selects actions based on observations, and updates its action policy.
+- **wrappers.py**: Contains logic for environment preprocessing, such as resizing observations and converting RGB to grayscale.
+- **neural.py**: Defines Q-value estimators using a convolutional neural network.
+- **metrics.py**: Includes a `MetricLogger` to track training and evaluation performance.
+- **replay.py**: Used to evaluate a trained Mario model.
+
+
+## project overview
+we uploaded two different videos of mario in our repository that see it's performance before and after training
+
+
 ## Setup Instructions
 To set up this project, we utilized Ubuntu to create a new environment named *mario*. Follow these steps to run the project:
 
@@ -39,14 +52,4 @@ python replay.py
 ```
 This will display Mario playing the game in a window and log performance metrics to a new folder within `checkpoints`. To load a specific checkpoint, update the `load_dir` parameter in `Mario.load()` with the desired timestamp, such as `checkpoints/2020-06-06T22-00-00`.
 
-## Project Files
-- **main.py**: The main loop managing interactions between the environment and Mario.
-- **agent.py**: Defines how the agent collects experiences, selects actions based on observations, and updates its action policy.
-- **wrappers.py**: Contains logic for environment preprocessing, such as resizing observations and converting RGB to grayscale.
-- **neural.py**: Defines Q-value estimators using a convolutional neural network.
-- **metrics.py**: Includes a `MetricLogger` to track training and evaluation performance.
-- **replay.py**: Used to evaluate a trained Mario model.
-
-##project overview
-we uploaded two different videos of mario in our repository that see it's performance before and after training
 
